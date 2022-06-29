@@ -1,0 +1,84 @@
+.header {
+  width: 100%;
+  height: 60px;
+  padding: 6px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header .navigation {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navigation .items {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-right: 4px;
+}
+
+/* Item */
+
+.navigation .items .item {
+  font-size: 0.82em;
+  color: #000000de;
+  line-height: 24px;
+}
+
+.navigation .items .item a {
+  text-decoration: none;
+  color: #000000de;
+}
+
+.navigation .items .item a:hover {
+  text-decoration: underline;
+}
+
+/* Menu Button */
+
+.navigation .items .menu {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 50%;
+  transition: 120ms all ease-out;
+  margin-left: 4px;
+}
+
+.navigation .items .menu:hover {
+  background: #ebecec;
+}
+
+.navigation .items .menu svg {
+  fill: #5f6368;
+}
+
+/* Sign In Button */
+
+.navigation .items .signin {
+  width: 96px;
+  height: 36px;
+  background: #1a73e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 0.9em;
+  margin-right: 8px;
+}
+
+.navigation .items .signin:hover {
+  background: #1a73e8e7;
+}
