@@ -97,3 +97,29 @@
   width: 24px;
   height: 24px;
 }
+
+/*Buttons*/
+
+.main .buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 8px;
+}
+
+.main .buttons .button {
+  background: #f8f9fa;
+  padding: 9px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.main .buttons .button a {
+  text-decoration: none;
+  color: #3c4043;
+  font-size: 0.9em;
+}
+
+.main .buttons .button:hover {
+  border: 1px solid rgb(204, 204, 204);
+}

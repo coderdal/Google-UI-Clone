@@ -1,4 +1,5 @@
 import React from "react";
+import Buttons from "./Buttons";
 import Logo from "./Logo";
 
 import styles from "./Main.module.css";
@@ -9,6 +10,7 @@ const Main = () => {
     <main className={styles.main}>
       <Logo />
       <SearchBar />
+      <Buttons />
     </main>
   );
 };
