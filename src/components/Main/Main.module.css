@@ -1,0 +1,99 @@
+.main {
+  flex: 1;
+  width: 100%;
+  padding: 6px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*Logo*/
+
+.main .logo {
+  width: 274px;
+  height: 92px;
+}
+
+.main .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Search Bar */
+
+.main .searchbar {
+  margin-top: 26px;
+  max-width: 584px;
+  width: 90%;
+  height: 44px;
+  border: 1px solid #ddd;
+  border-radius: 24px;
+  padding: 10px 48px;
+  position: relative;
+  transition: 100ms all ease-out;
+}
+
+.main .searchbar:hover {
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+  border-color: rgba(223, 225, 229, 0);
+}
+
+.main .searchbar input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  color: rgba(0, 0, 0, 0.87);
+  background: transparent;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0px 90px 0px 48px;
+}
+
+.main .searchbar input:focus {
+  border: none;
+  outline: none;
+}
+
+.main .searchbar .searchIcon {
+  position: absolute;
+  left: 15px;
+}
+
+.main .searchbar .searchIcon svg {
+  width: 20px;
+  height: 20px;
+}
+
+/**/
+
+.main .searchbar .microphoneIcon {
+  position: absolute;
+  right: 15px;
+  cursor: pointer;
+}
+
+.main .searchbar .microphoneIcon svg {
+  width: 22px;
+  height: 22px;
+}
+
+/**/
+
+.main .searchbar .clearIcon {
+  position: absolute;
+  right: 48px;
+  cursor: pointer;
+  border: none;
+  border-right: 1px solid #ddd;
+  padding: 0 12px;
+  background: transparent;
+  outline: none;
+}
+
+.main .searchbar .clearIcon svg {
+  width: 24px;
+  height: 24px;
+}
