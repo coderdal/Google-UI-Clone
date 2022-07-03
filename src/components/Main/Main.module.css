@@ -31,6 +31,9 @@
   padding: 10px 48px;
   position: relative;
   transition: 100ms all ease-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .main .searchbar:hover {
